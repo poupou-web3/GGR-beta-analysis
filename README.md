@@ -36,7 +36,14 @@ The final flag is triggered if any flag is triggered.
 
 ## Output
 The CSV file [flagged_grants.csv](https://github.com/poupou-web3/GGR-beta-analysis/blob/main/flagged_grants.csv) contains the list of grants that were flagged by the algorithm.
+
 The CSV file [grants_and_scores.csv](https://github.com/poupou-web3/GGR-beta-analysis/blob/main/grants_and_scores.csv) is the raw file containing all grant data the scores and the boolean.
+
+The Excel file [beta-flagged-grants.xlsx]() contains the list of flagged grants with the detailed manual analysis.
+The analysis was a manual review trying to understand if the grant was fraudulent or not. Theis process was done by a single person and is not perfect and very subjective.
+
+## Conclusion
+
 
 ## How to run the analysis
 Requirements: Python 3.10 or higher
