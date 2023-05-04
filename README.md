@@ -1,4 +1,4 @@
-# GGR-beta-analysis
+# Allo Protocol Beta Rounds Analysis
 Analysis of Allo beta rounds run in April 2023
 
 The goal of the analysis is to flag projects submitted in the allo protocol that may be fraudulent.
@@ -40,9 +40,39 @@ The CSV file [flagged_grants.csv](https://github.com/poupou-web3/GGR-beta-analys
 The CSV file [grants_and_scores.csv](https://github.com/poupou-web3/GGR-beta-analysis/blob/main/grants_and_scores.csv) is the raw file containing all grant data the scores and the boolean.
 
 The Excel file [beta-flagged-grants-analysis.xlsx](https://github.com/poupou-web3/GGR-beta-analysis/blob/main/beta-flagged-grants-analysis.xlsx) contains the list of flagged grants with the detailed manual analysis.
-The analysis was a manual review trying to understand if the grant was fraudulent or not. Theis process was done by a single person and is not perfect and very subjective.
+The analysis was a manual review trying to understand if the grant was fraudulent or not. This process was done by a single person and is not perfect and very subjective.
 
 ## Conclusion
+The projects flagged as suspicious or Sybil from the flagged project is subjective. Nonetheless, a large number of projects extracted by the originality and ai boolean look fraudulent or suspiciously fraudulent. The drawback of that method is that it requires to pay for the API. It cost me $20 to run on all beta rounds. An interesting test for a future analysis would be to run the analysis on the alpha round to see if the flagged projects were indeed fraudulent or rejected by manual review from Gitcoin. The other flags tend to flag many projects. Yet having a low description length or a low readability score does not mean that the project is fraudulent. It may be a good indicator to prioritize the manual review and should probably be completed by other indicators.
+
+## Other ideas to facilitate the grant reviewing process
+A manual review will always be required to accept grants that need funds and that are safe for the community.
+From reviewing around 100 projects manually, I listed the following legos that could be built to facilitate the process using only application data.
+
+- website
+    - latest article
+    - activity
+    - functional
+    - Fork?
+    - does it match the description?
+    - When was it published?
+    - Is the person on Twitter matching the person on the website
+- Twitter
+    - how many followers
+    - What's the growth of the followers
+    - How old is the account?
+    - Is it active in the last month and before?
+    - Is it showing interest in the grant round and bragging about it?
+    - Is it relayed by other relevant accounts (for example eth lima retweeting a project grant in Latino America)*
+    - Is there an official Twitter account with a similar name?
+- GitHub
+    - is the repository active
+    - how many people contribute to the project?
+    - How active is the person behind the account
+    - How big is the repo
+- Then is the project impersonating another person?
+    - look at the address
+    - brag on Twitter about it as the official account?
 
 
 ## How to run the analysis
@@ -57,7 +87,7 @@ Requirements: Python 3.10 or higher
 4. Put the data files in the data folder following the hierarchy below
 5. Run the notebook [Beta-Grant-Analysis.ipynb](https://github.com/poupou-web3/GGR-beta-analysis/blob/main/jupyter/Beta-Grant-Analysis.ipynb)
 
-## Tree
+## Tree structure of the repository
 ```
 C:.
 ├───data
