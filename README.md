@@ -4,7 +4,7 @@ Analysis of Allo beta rounds run in April 2023
 The goal of the analysis is to flag projects submitted in the allo protocol that may be fraudulent.
 In that repository, we explore the project description to automatically flag projects that may be fraudulent.
 A manual review is then performed to confirm the flagging.
-The final list with the detailed analysis is available in the file beta-flagged-grants.xlsx
+The final list with the detailed analysis is available in the file [beta-flagged-grants-analysis.xlsx](https://github.com/poupou-web3/GGR-beta-analysis/blob/main/beta-flagged-grants-analysis.xlsx)
 
 
 
@@ -39,7 +39,7 @@ The CSV file [flagged_grants.csv](https://github.com/poupou-web3/GGR-beta-analys
 
 The CSV file [grants_and_scores.csv](https://github.com/poupou-web3/GGR-beta-analysis/blob/main/grants_and_scores.csv) is the raw file containing all grant data the scores and the boolean.
 
-The Excel file [beta-flagged-grants-analysis.xlsx](https://github.com/poupou-web3/GGR-beta-analysis/blob/main/beta-flagged-grants-analysis.xlsx) contains the list of flagged grants with the detailed manual analysis.
+**The Excel file [beta-flagged-grants-analysis.xlsx](https://github.com/poupou-web3/GGR-beta-analysis/blob/main/beta-flagged-grants-analysis.xlsx) contains the list of flagged grants with the detailed manual analysis.**
 The analysis was a manual review trying to understand if the grant was fraudulent or not. This process was done by a single person and is not perfect and very subjective.
 
 ## Conclusion
