@@ -4,3 +4,4 @@ jupyterlab==3.6.3
 py-readability-metrics==1.4.5
 scikit_learn==1.2.2
 web3==6.2.0
+python-dotenv==1.0.0
