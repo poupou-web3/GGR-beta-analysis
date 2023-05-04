@@ -19,7 +19,7 @@ The two files used are
 
 The analysis was performed in a jupyter notebook in Python.
 
-The notebook is available here: Beta-Grant-Analysis.ipynb
+The notebook is available here: [Beta-Grant-Analysis.ipynb](https://github.com/poupou-web3/GGR-beta-analysis/blob/main/jupyter/Beta-Grant-Analysis.ipynb)
 
 ### Flagging algorithm
 #### 1. Low Description length
@@ -35,8 +35,8 @@ The originality API is a paid API that rated if a text was written by a human or
 The final flag is triggered if any flag is triggered.
 
 ## Output
-The CSV file flagged_grants.csv contains the list of grants that were flagged by the algorithm.
-The CSV file grants_and_scores.csv is the raw file containing all grant data the scores and the boolean.
+The CSV file [flagged_grants.csv](https://github.com/poupou-web3/GGR-beta-analysis/blob/main/flagged_grants.csv) contains the list of grants that were flagged by the algorithm.
+The CSV file [grants_and_scores.csv](https://github.com/poupou-web3/GGR-beta-analysis/blob/main/grants_and_scores.csv) is the raw file containing all grant data the scores and the boolean.
 
 ## How to run the analysis
 Requirements: Python 3.10 or higher
@@ -48,7 +48,7 @@ Requirements: Python 3.10 or higher
 ```ORIGINALITY_API_KEY='<you originality ai API KEY>```
     This calls a paid API.
 4. Put the data files in the data folder following the hierarchy below
-5. Run the notebook Beta-Grant-Analysis.ipynb
+5. Run the notebook [Beta-Grant-Analysis.ipynb](https://github.com/poupou-web3/GGR-beta-analysis/blob/main/jupyter/Beta-Grant-Analysis.ipynb)
 
 ## Tree
 ```
